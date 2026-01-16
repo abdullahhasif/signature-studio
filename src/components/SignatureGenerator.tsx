@@ -114,16 +114,16 @@ const SignatureGenerator = () => {
       <div className="w-full max-w-xl animate-fade-up">
         {/* Header */}
         <div className="text-center mb-10">
-          <div className="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-primary/10 mb-4">
-            <svg className="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
-              <path strokeLinecap="round" strokeLinejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
-            </svg>
-          </div>
+          <img 
+            src="/favicon.png" 
+            alt="Signature Lab" 
+            className="w-14 h-14 mx-auto mb-4 rounded-2xl shadow-sm"
+          />
           <h1 className="text-2xl sm:text-3xl font-semibold text-foreground mb-2 tracking-tight">
-            Email Signature Generator
+            Signature Lab
           </h1>
           <p className="text-muted-foreground">
-            Create a professional signature in seconds
+            Create professional email signatures in seconds
           </p>
         </div>
 
